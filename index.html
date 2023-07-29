@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SKELETON LOADING ANIMATION (try slow 3g connection in chrome dev tools networking section) -->
+    <title>loading skeleton animation</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <!-- CONTENT -->
+    <div class="grid"></div>
+
+    <template id="card-template">
+      <div class="card">
+        <div class="header">
+          <img
+            class="header-img skeleton"
+            image
+          />
+          <div class="title" data-title>
+            <div class="skeleton skeleton-text"></div>
+            <div class="skeleton skeleton-text"></div>
+          </div>
+        </div>
+        <!-- <div data-body>
+          <div class="skeleton skeleton-text"></div>
+          <div class="skeleton skeleton-text"></div>
+          <div class="skeleton skeleton-text"></div>
+          <div class="skeleton skeleton-text"></div>
+        </div>
+      </div> -->
+    </template>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
